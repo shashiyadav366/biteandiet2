@@ -40,7 +40,7 @@ export default function UploadedData({
   const DialogConetent = () => (
     <Box p={2}>
       <Box textAlign='center'>
-        <ErrorOutlineIcon style={{ fontSize: "60px", color: red[500] }} />
+        <ErrorOutlineIcon style={{ fontSize: "60px", color: "#013220" }} />
       </Box>
       <Box mb={2}>
         <Typography variant='h6' color='textSecondary' align='center'>
@@ -54,7 +54,7 @@ export default function UploadedData({
         <Button
           style={{ marginLeft: "8px" }}
           variant='contained'
-          color='secondary'
+          color='#013220'
           onClick={() => {
             DeleteData({ id: currentId });
             handleDialogClose();
