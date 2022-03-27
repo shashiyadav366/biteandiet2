@@ -52,9 +52,8 @@ export default function UploadedData({
           Cancel{" "}
         </Button>
         <Button
-          style={{ marginLeft: "8px" }}
+          style={{ marginLeft: "8px",background:"#013220" }}
           variant='contained'
-          color='#013220'
           onClick={() => {
             DeleteData({ id: currentId });
             handleDialogClose();
@@ -89,7 +88,7 @@ export default function UploadedData({
               <Card className={classes.cardData}>
                 <CardContent className={classes.cardContent} style={{background:"#9ce27d"}}>
                   {/* two buttons  */}
-                  <IconButton
+                  <IconButton style={{background:"#9ce27d"}}
                     color='secondary'
                     className={classes.del_Button}
                     onClick={() => {
