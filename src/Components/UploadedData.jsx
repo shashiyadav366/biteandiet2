@@ -54,6 +54,7 @@ export default function UploadedData({
         <Button
           style={{ marginLeft: "8px",background:"#013220" }}
           variant='contained'
+          color="#ffff"
           onClick={() => {
             DeleteData({ id: currentId });
             handleDialogClose();
